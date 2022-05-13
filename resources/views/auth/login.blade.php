@@ -16,14 +16,14 @@ html, body{
     <div class="login-logo">
         <div class="login-logo">
             <a href="{{ route('admin.home') }}">
-                PAIG-eSurvey
+                NETB SFIS
             </a>
         </div>
     </div>
     <div class="card">
         <div class="card-body login-card-body">
             <p class="login-box-msg">
-                PAIG-eSurvey
+                NETB SFIS
             </p>
 
             @if(session()->has('message'))

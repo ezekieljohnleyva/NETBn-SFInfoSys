@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'PAIG-eSurvey',
+    'site_title' => 'NETB SFIS',
 ];

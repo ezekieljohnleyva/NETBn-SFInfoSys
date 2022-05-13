@@ -15,9 +15,6 @@ class SurveyController extends Controller
     {
         $survey = Survey::where('slug', $slug)->firstOrFail();
 
-        if($survey->task_status_id!==1)
-        return view('layouts.launchError');
-
         return view('survey-manager::survey', [
             'survey'    =>  $survey,
         ]);
